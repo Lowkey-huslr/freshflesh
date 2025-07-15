@@ -1,7 +1,7 @@
 // backend/routes/meatRoutes.js
 const express = require("express");
 const router = express.Router();
-const { addMeat, getAllMeats, deleteMeat } = require("../controllers/MeatController");
+const { addMeat, getAllMeats, deleteMeat } = require("../controllers/meatController");
 
 router.get("/", getAllMeats);           // GET /api/meats
 router.post("/", addMeat);              // POST /api/meats
